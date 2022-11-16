@@ -1,13 +1,23 @@
-<body>
-	<h1>My Blog Site</h1>
-	<h1>About Me</h1>
-	<h2>
-		I'm Binit and I love writing about tech and mainly web development. This is
-		a site built with Astro which makes building Static Sites like blog super
-		simple and easy
-	</h2>
-	<p>
-		This is just the tutorial I'm going through. I'll add more stuff here once I
-		learn it
-	</p>
-</body>
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title='About Me'>
+	<main>
+		<a href='/'>Home</a>
+		<a href='/about'>About</a>
+	</main>
+	<body>
+		<h1>My Blog Site</h1>
+		<h1>About Me</h1>
+		<h2>
+			I'm Binit and I love writing about tech and mainly web development. This
+			is a site built with Astro which makes building Static Sites like blog
+			super simple and easy
+		</h2>
+		<p>
+			This is just the tutorial I'm going through. I'll add more stuff here once
+			I learn it
+		</p>
+	</body>
+</Layout>
